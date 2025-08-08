@@ -5,7 +5,7 @@ export default function ClockTimerApp() {
   const [newCountdown, setNewCountdown] = useState(10);
   const [selectedZone, setSelectedZone] = useState(() => localStorage.getItem("selectedZone") || "UTC");
   const [customLabel, setCustomLabel] = useState(() => localStorage.getItem("customLabel") || "My Clock");
-  const selectedSound = "/10secs.mp3";
+  const selectedSound = "/10secs.MP3";
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem("darkMode") === "true");
   const countdownRef = useRef(null);
   const voiceRef = useRef(null);
