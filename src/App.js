@@ -263,14 +263,14 @@ const formatTime = (seconds) => {
           </select>
         </div>
 
-<div style={{ margin: "30px 0" }}>
-  <ins className="adsbygoogle"
-       style={{ display: "block" }}
-       data-ad-client="ca-pub-7817395457584126"
-       data-ad-slot="6362211799"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-</div>
+				{/* <div style={{ margin: "30px 0" }}>
+					<ins className="adsbygoogle"
+							style={{ display: "block" }}
+							data-ad-client="ca-pub-7817395457584126"
+							data-ad-slot="6362211799"
+							data-ad-format="auto"
+							data-full-width-responsive="true"></ins>
+			</div> */}
 
         <h2>Countdown Timer</h2>
         <div>
